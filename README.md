@@ -5,6 +5,6 @@ You can see the uri on the server terminal.
 You can see the access token, which is used to get the uri, and the uri on the developer's console of this page.
 
 サーバーターミナルにURIが出ます。
-このページの開発者コンソールにもアクセストークンとURIが出るようにしています。
+ブラウザーの開発者コンソールにもアクセストークンとURIが出るようにしています。
 
-ユーザーが何も聞いていないときは二つ目のボタンを押すとトークンは得られ、開発者コンソールにも表示されますが、サーバーには何も（URI）は送られません。
+ユーザーが何も聞いていないときには、二つ目のボタンを押すとトークンは得られ、開発者コンソールにも表示されますが、URIは存在しないため、サーバーには何も送られません。
