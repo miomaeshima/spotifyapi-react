@@ -1,10 +1,13 @@
+You can get the uri of music / podcast the user is listening currently.
+
 On the browser, the first button is to login with spotify.
 Once logged in, you can send uri of current playing to server by hitting the button.
 
 You can see the uri on the server terminal.
 You can see the access token, which is used to get the uri, and the uri on the developer's console of this page.
 
-サーバーターミナルにURIが出ます。
+サーバーターミナルに今、ユーザーが聞いている音楽・ポッドキャストのURIが出ます。
+
 ブラウザーの開発者コンソールにもアクセストークンとURIが出るようにしています。
 
 ユーザーが何も聞いていないときには、二つ目のボタンを押すとトークンは得られ、開発者コンソールにも表示されますが、URIは存在しないため、サーバーには何も送られません。
