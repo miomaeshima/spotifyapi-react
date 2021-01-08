@@ -28,7 +28,6 @@ const App = () => {
     })
     .then((response) => response.json())
     .then((data) => {
-      //console.log(data);
       const body = { uri: data.item.uri };
       console.log(body);
       
@@ -37,9 +36,10 @@ const App = () => {
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(body),
       });
-    });
+    })
+    .catch((err)=>(console.log("No uri now.")));
   } else {
-    //token = false;
+    console.log("no token")
   }}
 
   return (
